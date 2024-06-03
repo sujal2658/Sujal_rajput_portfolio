@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="container">
+      <div class="left">
+        <p class="name">RAJPUT SUJAlSINH</p>
+        <p>Hey, I am <br /><span>web devloper</span></p>
+      </div>
+      <!-- <div class="right">
+        <div class="box">
+          <img src="{% static 'images/yme.jpg' %}" alt="SUJAL RAJPUT" />
+        </div>
+      </div> -->
+    </div>
+
+    <!-- Add more sections as needed -->
+
+    <!-- about -->
+    <section id="about">
+      <div class="about-container">
+        <h1>About</h1>
+        <p>
+          Hello, I'm Rajput Sujalsinh, a passionate individual with a knack for
+          coding and creating amazing websites. Here's a glimpse into my
+          journey:
+        </p>
+        <h3>Experience</h3>
+        <p>
+          During my college years, I embarked on an enriching internship journey
+          where I contributed to various projects, honing my skills along the
+          way. From June 2023 to April 2024, I delved into real-world
+          challenges, gaining valuable experience that shaped my approach to
+          coding.<br />
+          I also took the initiative to create the ABC Computer Classes website,
+          where I showcased my ability to merge functionality with sleek design.
+        </p>
+        <h3>Education</h3>
+        <p>
+          I pursued my education with zeal, completing my studies in 12th
+          commerce and diving into the world of Computer Applications with BCA.
+        </p>
+        <h3>Motivation</h3>
+        <p>
+          What drives me? The thrill of coding and the satisfaction of crafting
+          exceptional websites. Every line of code is an opportunity to turn
+          ideas into reality, and that's what keeps me motivated.
+        </p>
+        <h3>Key Skills</h3>
+        <p>
+          JavaScript and Django are my playgrounds where I thrive in creating
+          seamless user experiences. Additionally, my proficiency in Figma
+          allows me to transform concepts into captivating designs.
+        </p>
+
+        <h3>Outside Interests</h3>
+        <p>
+          When I'm not immersed in coding, you'll often find me strategizing my
+          next move on the chessboard. It's a game that mirrors my approach to
+          work—strategic, calculated, and always aiming for victory.
+        </p>
+        <h3>Approach to Work</h3>
+        <p>
+          My approach to work is simple yet effective—I start with a clear
+          vision, dive into the project with enthusiasm, and prioritize
+          delivering excellence. Continuous learning is my mantra, ensuring that
+          each project is better than the last.
+        </p>
+        <h3>Continuous Growth</h3>
+        <p>
+          Every day is an opportunity to learn and grow. I embrace challenges,
+          acquire new skills, and push boundaries to stay at the forefront of
+          technology.
+        </p>
+      </div>
+    </section>
+      
+      <div class="skill">
+        <h1>My Skills</h1>
+        <div class="conla">
+          <div class="lang">
+            <img class="js" src="{% static 'images/js.png' %}" alt="" />
+            <p>JavaScript</p>
+          </div>
+          <div class="lang">
+            <img src="{% static 'images/python.png' %}" alt="" />
+            <p>Python</p>
+          </div>
+          <div class="lang">
+            <img src="{% static 'images/django.png' %}" alt="" />
+            <p>Django</p>
+          </div>
+          <div class="lang">
+            <img class="html" src="{% static 'images/html.png' %}" alt="" />
+            <p>Html</p>
+          </div>
+          <div class="lang">
+            <img src="{% static 'images/css.png' %}" alt="" />
+            <p>Css</p>
+          </div>
+          <div class="lang">
+            <img src="{% static 'images/figma.png' %}" alt="" />
+            <p>Figma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project -->
+    <!-- Project Section -->
+<hr />
+<section id="project">
+  <div class="project-container">
+    <h1>My Projects</h1>
+    <div class="project-item">
+      <a href="https://github.com/sujal2658/computer-class">
+        <img class="project-img" src="{% static 'images/site.jpg' %}" alt="Project 1">
+        <p>View my code</p>
+      </a>
+    </div>
+    <div class="project-item">
+      <a href="https://github.com/sujal2658/spotify-music-">
+        <img class="project-img" src="{% static 'images/spotifyimg.png' %}" alt="Project 2">
+        <p>View my code</p>
+      </a>
+    </div>
+    <div class="project-item">
+      <a href="#">
+        <img class="project-img" src="{% static 'images/port.png' %}" alt="Project 3">
+        <p>View my code</p>
+      </a>
+    </div>
+
+    <div class="project-item">
+        <img class="project-img" src="{% static 'images/figma1.jpg' %}" alt="Project 3">
+        <p>Figma designs</p>
+    </div>
+
+    <div class="project-item">
+        <img class="project-img" src="{% static 'images/figma2.jpg' %}" alt="Project 3">
+  
+    </div>
+   </div>
+
+</div>
+</section>
+
+
+    <!-- footer -->
+
+    <section id="contact">
+
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p> Feel free to get in touch with me:</p>
+        <div class="contact-info">
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/1234567890">+91 9510488100</a></p>
+            <p><strong>Email:</strong> <a href="mailto:sujalrajput2658@gmail.com">sujalrajput2658@gmail.com</a></p>
+            <p><strong>Address:</strong>Ahmedabad,Gujrat,India</p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:rajputsujalsinh@example.com"><i class="far fa-envelope"></i></a>
+        </div>
+        <form id="contact-form" action="#contact" method="post">
+            {% csrf_token %}
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+
+
+
+
+      <div class="footer">
+        <h2>Contact Me</h2>
+        <div class="social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/sujal2658"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="contact">
+          <p>
+            <a href="mailto:sujalrajput2658@gmail.com"
+              >sujalrajput2658@gmail.com</a
+            >
+          </p>
+          <p><a href="#">+91 9510488100</a></p>
+          <p>Ahmedabad,Gujrat,India</p>
+        </div>
+        <p>"Thanks for Scrolling"</p>
+      </div>
+    </section>
+    {% block content %} {% endblock content %}
+    <script src="{% static 'js/script.js' %}"></script>
+  </body>
+</html>
